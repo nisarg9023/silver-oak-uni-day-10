@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: rgb(198, 31, 31);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: rgb(13, 215, 27);
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+            /* only for demonstration, should be removed */
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the heder */
+        footer {
+            background-color: rgb(238, 236, 226);
+            padding: 10px;
+            text-align: center;
+            color: rgb(66, 14, 238);
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        #pera {
+            background-color: white;
+        }
+    </style>
+    </head>
+
+    <body>
+        <p>Lion, ( Panthera leo ), large, powerfully built cat (family Felidae) that is second in size only to the
+            tiger. The proverbial “king of beasts,” the lion has been one of the best-known wild animals since earliest
+            times. Lions are most active at night and live in a variety of habitats but prefer grassland, savanna, dense
+            scrub, and open woodland.
+            lion | mammal | Britannica.com</p>
+
+        <header>
+            <h2>Lion</h2>
+        </header>
+
+        <section>
+
+        <article id="pera">
+                <h1>about african Lion</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXGROJxgLXM1glskj9FLCzlHt37g-f7MxrQ&usqp=CAU"></img>
+                <p>What do you know about African lions?
+                    They are the world’s most iconic cats and one of the most famous African animals. You’ll learn about
+                    their habits, habitat, diet, differences with other lions, and much more. Plus lots of photos and an
+                    amazing video! 1. Where do African lions live? 2. How many African lions are left in the world? 3.
+                    What country in Africa has the most lions? 4.</p>  
+                <p>How many lions are left in Africa today?
+                    Today, there are only half as many African lions than there were 25 years ago. The International
+                    Union for the Conservation of Nature (IUCN) estimates that fewer than 25,000 lions remain in Africa,
+                    which is why the organization classifies them as vulnerable to extinction.</p>
+                <h2>about bengali Lions</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9CiORxTS3iUuz94GYcDB0pYx0Fy74GSbcUA&usqp=CAU"></img>
+                <p>What is the history of the Bengal Lion?
+                    Bennett's essay contains a drawing titled 'Bengal lion'. Felis leo goojratensis proposed by Walter
+                    Smee in 1833 was based on two skins of maneless lions from Gujarat that Smee exhibited in a meeting
+                    of the Zoological Society of London. Leo asiaticus proposed by Sir William Jardine, 7th Baronet in
+                    1834 was a lion from India.</p>
+                <p>What is the classification of Lion?
+                    The lion is one of five pantherine cats native to India, along with the Bengal tiger ( P. tigris
+                    tigris ), Indian leopard ( P. pardus fusca ), snow leopard ( P. uncia) and clouded leopard (
+                    Neofelis nebulosa ). It was also known as the Indian lion and the Persian lion.</p>
+                <h3>about lioness </h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0FYvleYHeJyAwUiqeY7-aSPqmKn3sSDXaEA&usqp=CAU">
+                <p>What is special about a female lion?
+                    Female lions are the pride's primary hunters and leaders. They often work together to prey upon
+                    antelopes, zebras, wildebeest, and other large animals of the open grasslands. Many of these animals
+                    are faster than lions, so teamwork pays off. Female lions also raise their cubs communally.</p>
+                <p>What are the qualities of a lioness?
+                    Lioness, the female lion is an icon of bold and fierce beauty yet gentle and nurturing like a true
+                    queen should be. She is extremely independent and ambition driven but when it comes to her family,
+                    she empowers the lion and showers the cubs with extreme love and care.</p>
+            </article>
+        </section>
+
+    </body>
+
+</html>
+
+
+</body>
+
+</html>
